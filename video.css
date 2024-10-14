@@ -1,0 +1,56 @@
+
+
+.section-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 15px;
+    row-gap: 40px;
+    padding-bottom: 100px;
+}
+
+.thumbnail{
+    width: 100%;
+}
+
+.video-info-grid{
+    display: grid;
+    grid-template-columns: 50px 1fr;
+
+}
+
+.profile-picture{
+    border-radius: 50px;
+    width: 36px;
+
+}
+
+.video-info{
+    display: inline-block;
+}
+
+.profile-container{
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+
+.video-info-user, .video-info-stats{
+    font-size: 15px;
+    color: grey;
+}
+
+.video-info-title{
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+.video-info-user{
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.video-info-stats{
+    margin-top: 5px;
+}
+

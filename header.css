@@ -1,0 +1,40 @@
+.navbar-logo{
+    background-color: white;
+    width: 90px;
+    height: 20px;
+    display: inline-block;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 57px;
+
+}
+.search-bar{
+    height: 40px;
+    width: 250px;
+    font-family: roboto;
+
+}
+
+.left-section{
+    background-color: lightblue;
+    width: 150px;
+}
+
+.middle-section{
+    background-color: lightpink;
+    flex: 1;
+    margin-left: 70px;
+    margin-right: 35px;
+    max-width: 500px;
+
+}
+
+.right-section{
+    background-color: lightblue;
+    width: 200px;
+}
